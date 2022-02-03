@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +7,43 @@
     <link rel="stylesheet" href="style.css">
     <title>kakao Clone Coding</title>
     <style>
-      html{
-        background-color: tomato;
-      }
       body{
-          margin:0;
-          padding:20px;
-          background-color: pink;
+        height: 100vh;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+       
+          
       }
-      div{
-          width:150px;
-          height:150px;
-          padding:20px;
-          border: solid black 2px;
-      }
-      #first{
-          background-color: chartreuse;
+     div{    
+        margin:20px;
+        width: 100px;
+        height: 100px;
+        background-color: teal;
       }
       #second{
-          background-color: coral;
-      }
-      #third{
-          background-color: blue;
-      }
-      #forth{
-          background-color: azure;
+          background-color: aquamarine;
       }
     </style>
 </head>
 <body>
-    <div id="first">
-        <div id="second">
-            <div id="third">
-                <div id="forth"></div>
-            </div>
-        </div>
-    </div>
+
+    <div></div>
+    <div id="second"></div>
+    <div></div>
+
 </body>
 </html>
+/*
+flexbox 규칙
+
+1.
+자식 엘리먼트에는 아무것도 적지 말아야 한다.
+부모 엘리먼트에만 적는다.
+부모를 display:flex로 만든다.
+
+2. justify-content는 주축 위에서 움직이고 (main axis)
+
+3.aligh-items 교차축 위에서 움직인다. (cross axis)
+*/
