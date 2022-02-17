@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>KaKao Clone</title>
 </head>
 <body>
@@ -16,13 +17,26 @@
             <span class="time"></span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fa-solid fa-battery-full"></i>
+            <span>11%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
+        <p class="welcome-header__text">if you have a kakao Account, log in with your email or phone number.</p>
+    </header>
+
+    <form id="login-form" action="post">
+        <input type="text" placeholder="Email or phone number" name="id" required/>
+        <input type="password" placeholder="password" name="password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">계정 또는 패스워드 찾기</a>
+    </form>
+
+
     <script src="https://kit.fontawesome.com/0c73c85794.js" crossorigin="anonymous"></script>
 </body>
 
-<script src="main.js"></script>
+<script src="time.js"></script>
 </html>
