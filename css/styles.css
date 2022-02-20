@@ -1,9 +1,13 @@
 @import "reset.css";
-@import "components/status-bar.css";
-/*Components*/
-@import "screens/login.css";
-/*Screens*/
 @import "variables.css";
+
+/*Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/*Screens*/
+@import "screens/login.css";
+
 
 body{
     background-color: wheat;
