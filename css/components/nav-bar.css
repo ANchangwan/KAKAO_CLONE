@@ -12,6 +12,33 @@
     justify-content: space-between;
 }
 
-.nav__list{
+.nav__link{
+    position: relative;
     color:#2e363e;
+}
+
+.nav__notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:15px;
+    bottom:15px;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color:white;
+    background-color: tomato;
+    font-weight: 600;
+  
+}
+
+.nav__mark{
+    display: block;
+    position: absolute;
+    left:28px;
+    width:6px;
+    height: 6px;
+    background-color: tomato;
+    border-radius: 20px;
 }
