@@ -1,0 +1,11 @@
+#frinds-display-link{
+   display: block;
+   text-align: center;
+   background-color: rgb(240, 227, 202);
+   padding: 15px 0px;
+   font-size: 16px;
+}
+
+#frinds-display-link i{
+    color: rgba(0,0,0,0.3);
+}
