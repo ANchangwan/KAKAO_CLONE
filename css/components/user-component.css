@@ -1,14 +1,13 @@
-.user-component{
-    display: flex;
-    flex-direction: column;
-    
+.user-component {
+  justify-content: space-between;
 }
 
-.user-component__colum{
-    display:flex;
-    align-items: center;
-    margin-bottom: 10px;
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
 }
+
 
 .user-component__avatar{
     width:70px;
@@ -31,4 +30,13 @@
 .user-component__avatar--xl{
     width:80px;
     height:80px;
+}
+.user-component__avatar--sm{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+.user-component_title--not-bold{
+    font-weight: 400;
+
 }
