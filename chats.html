@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Friends - KaKao Clone</title>
+    <title>Chats - KaKao Clone</title>
 </head>
 <body>
     <div id="status-bar">
@@ -23,49 +23,27 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Firends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fas fa-comment-dots fa-lg"></i></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
 
-    <a id="frinds-display-link">
-        <span><i class="fa-solid fa-circle-exclamation"></i></span>
-        frinds' Names Display 
-        <i class="fa-solid fa-chevron-right"></i> 
-    </a>
-
-    <main class="friends-screen-main">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="Photo/me.jpg" class="user-component__avatar user-component__avatar--xl"/>
-                <div class="user-component__text">
-                    <h1 class="user-component__title">안창완</h1>
-                    <!-- <h6 class="user-component__subtitle">hello world</h6> -->
-                </div>
-            </div> 
-            <div class="user-component__column"></div>
-        </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-        </div>
+    <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="Photo/서희.jpg" class="user-component__avatar user-component__avatar--sm"/>
                 <div class="user-component__text">
-                    <h1 class="user-component__title">서희</h1>
+                    <h4 class="user-component__title">서희</h1>
+                    <h6 class="user-component__subtitle">hello world</h6> 
                 </div>
             </div> 
             <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
+                <div class="user-component__time time2"></div>
+                <span class="badge">1</span>
             </div>
         </div>
     </main>
@@ -74,20 +52,20 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i>
+                    <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <i class="fa-solid fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class=""nav__btn>
-                <a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
             </li>
             <li class=""nav__btn>
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="more.html">
                     <span class="nav__mark"></span>
                     <i class="fa-solid fa-ellipsis fa-2x"></i>
                 </a>
@@ -100,4 +78,5 @@
 </body>
 
 <script src="time.js"></script>
+<script src="time2.js"></script>
 </html>

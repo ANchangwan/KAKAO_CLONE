@@ -1,6 +1,5 @@
 const time = document.querySelector('.time');
 
-console.log(time);
 
 function getTime(){
     const date = new Date();
@@ -17,8 +16,10 @@ function getTime(){
 }
 
 getTime();
-
 setInterval(
     getTime,
     1000
 );
+
+
+
