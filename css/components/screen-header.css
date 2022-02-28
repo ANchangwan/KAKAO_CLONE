@@ -11,5 +11,7 @@
     font-weight: bold;
 }
 .screen-header__icons span{
+    position:relative;
     margin-left : 18px;
 }
+
