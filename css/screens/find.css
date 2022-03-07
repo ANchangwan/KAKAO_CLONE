@@ -1,4 +1,4 @@
-.screen-header__mark{
+.screen-find-header__mark{
     display: block;
     position: absolute;
     left:60px;
@@ -6,27 +6,6 @@
     height: 6px;
     background-color: tomato;
     border-radius: 20px;
-}
-
-.find-icons{
-    display:flex;
-    justify-content: space-between;   
-    
-}
-
-.find-icons__icon{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i{
-    font-size: 35px;
-}
-
-.find-icons__icon span{
-    margin-top:18px;
-    text-align: center;
 }
 
 .recommended-friends{
@@ -103,6 +82,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .open-post__photo{
@@ -118,7 +98,7 @@
 .open-post__heart-count{
     background-color: rgba(0, 0, 0, 0.5);
     color:white;
-    padding:5px;
+    padding:15px;
     border-radius: 20px;
     display: flex;
     align-items:center;

@@ -1,0 +1,35 @@
+.screen-more-header__mark{
+    display: block;
+    position: absolute;
+    left:105px;
+    width:6px;
+    height: 6px;
+    background-color: tomato;
+    border-radius: 20px;
+}
+
+.more-screen .icon-row{
+    margin-top: 35px;
+}
+
+.more-suggestions{
+    margin-top: 50px;
+    padding-top:40px;
+    border-top: var(--main-border);
+}
+
+.more-suggestions__title{
+    margin-bottom: 30px;
+}
+
+.more-suggestions__icon-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    border-radius: 10px;
+    width:50px;
+    height: 50px;
+    background-color: rgb(238, 238, 53);
+    color:white;
+}
